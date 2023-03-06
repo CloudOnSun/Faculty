@@ -1,0 +1,10 @@
+COM1,The Good Place,fantasy comedy,53
+THR1,Mindhunter,psychological thriller,19
+FAN4,The Witcher,fantasy drama,8
+CD32,The Marvelous Mrs.Maisel,comedy-drama,26
+DSA,Chernobyl,documentar,8
+SSD82,Peaky Blinders,mafia,40
+2132,La Casa De Papel,action,30
+SDMKS,Spornaos,mafia thriller drama,80
+17DS,Naruto,anime,790
+KMDW,True Detective,thriller,10
