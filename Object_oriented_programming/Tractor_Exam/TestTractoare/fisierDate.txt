@@ -1,0 +1,6 @@
+1,asd,pop,4
+2,aaa,folk,6
+3,fdf,disco,2
+4,bcd,rock,2
+5,aaaa,pop,6
+6,cfg,folk,2

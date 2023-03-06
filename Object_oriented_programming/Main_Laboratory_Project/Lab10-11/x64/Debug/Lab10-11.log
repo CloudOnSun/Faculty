@@ -1,0 +1,20 @@
+﻿  basicOperationWidget.cpp
+  cosCumparaturiWidget.cpp
+  getSortFiltruWidget.cpp
+  informationFilmWidget.cpp
+  inputFilmeWidget.cpp
+  mainActivityWidget.cpp
+  repository.cpp
+  service.cpp
+  teste.cpp
+  undo.cpp
+  cosCumparaturi.cpp
+  domain.cpp
+  interfata.cpp
+  main.cpp
+  qrc_Lab1011.cpp
+  moc_basicOperationsWidget.cpp
+  moc_cosCumparaturiWidget.cpp
+  moc_getSortFiltruWidget.cpp
+  moc_informationFilmWidget.cpp
+  Lab10-11.vcxproj -> D:\Facultate\Faculty\Object_oriented_programming\Main_Laboratory_Project\x64\Debug\Lab10-11.exe

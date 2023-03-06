@@ -1,0 +1,8 @@
+1,abc,closed,a,bc
+2,bcd,inprogress,h
+3,cde,inprogress,o,p,e,f
+4,sad,open,fd
+5,sad,closed,fd,ds,ds,f
+6,sad,inprogress,fd,ds,f
+7,sad,closed,g
+8,dasd,open,k,l,o

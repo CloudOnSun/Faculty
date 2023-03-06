@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cosCumparaturi.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="domain.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="interfata.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="repository.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="teste.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="undo.cpp">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputFilmeWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="basicOperationWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="mainActivityWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="getSortFiltruWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="informationFilmWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="cosCumparaturiWidget.cpp">
+      <Filter>Source Files\GUIcpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{99000e2d-6bf7-4841-812a-8a87b1da8dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\notGUIcpp">
+      <UniqueIdentifier>{ba1246e2-d8df-4615-ab12-bb955beb09d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{73ff72ab-6024-477d-9cfc-cb7e86f37513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{920b594d-9a1f-4a72-a0bb-9d8ebdc3b9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\notGUI">
+      <UniqueIdentifier>{d0bfe575-7db5-400a-a650-ca3bcbd0cd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{092e3974-c026-464f-8f69-87ae44b57472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transaltion Files">
+      <UniqueIdentifier>{c8400bba-dac4-4521-a83c-0a8c2dfaf6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{c21a9e92-7b91-421f-8e19-95d7f63f7e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUIcpp">
+      <UniqueIdentifier>{28a4b15c-bea4-46e6-8e45-ef6e2a87c7f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cosCumparaturi.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="interfata.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="repository.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="teste.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="undo.h">
+      <Filter>Header Files\notGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="inputFilmeWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="mainActivityWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fisier_test.txt">
+      <Filter>Source Files\notGUIcpp</Filter>
+    </Text>
+    <Text Include="fisierDate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Lab1011.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Lab1011.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="basicOperationsWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="informationFilmWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="getSortFiltruWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="cosCumparaturiWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
