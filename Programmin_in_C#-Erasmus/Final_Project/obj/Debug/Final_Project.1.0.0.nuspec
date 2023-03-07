@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Final_Project</id>
+    <version>1.0.0</version>
+    <authors>Final_Project</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Final_Project\bin\Debug\net6.0\Final_Project.runtimeconfig.json" target="lib\net6.0\Final_Project.runtimeconfig.json" />
+    <file src="D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Final_Project\bin\Debug\net6.0\Final_Project.dll" target="lib\net6.0\Final_Project.dll" />
+  </files>
+</package>
