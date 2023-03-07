@@ -25,21 +25,40 @@ The marking process will put strong emphasis on the (object-oriented) applicatio
 Example (lines starting with "$>" represent input):
 
 \**$>** i
+
 Expression Missing
+
 \**$>** $#!%
+
 Format Error
+
 \**$>** = + 2 3
+
 \**$>** i
+
 5
 \**$>** d
+
 5.00000
+
 \**$>** = / 5 2
+
 \**$>** i
+
 2
 \**$>** d
+
 2.50000
+
 \**$>** = +
+
 Format Error
+
 \**$>** i
+
 Expression Missing
+
 \**$>** end
+
+2
+----
