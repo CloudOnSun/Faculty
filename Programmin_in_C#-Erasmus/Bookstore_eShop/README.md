@@ -37,7 +37,7 @@ BooksListing (template/example: 02-Books.html) - contains the common header; boo
 \...  
 \<table\>  
 \</table\>  
-...
+\...
 BookInfo (template/example: 03-BooksDetail.html) - contains the common header
 CartContents (template/example: 04-ShoppingCart.html) - contains the common header (showing the cart state after executing the command, if any); if no items are in the cart, a notice is shown instead of the table (template/example: 05-ShoppingCart-Empty.html).
 InvalidRequest (template/example: 09-InvalidRequest.html) - does NOT contain the common header (it is a valid HTML document, however)
@@ -62,20 +62,20 @@ Q: How should I represent and print HTML code in a C# program?
 
 A: Probably the easiest and most readable option is to have a single .WriteLine() call on suitable "writer" per one output line. For example, if we should implement an application that always prints an HTML document with current date and time using the following template/example (TimeServiceExample.out.html):
 
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Nezarka.NET: Also a Time Service!</title>
-</head>
-<body>
-    <style type="text/css">
+\<!DOCTYPE html\>
+\<html lang="en" xmlns="http://www.w3.org/1999/xhtml"\>
+\<head\>
+    \<meta charset="utf-8" /\>
+    \<title\>Nezarka.NET: Also a Time Service!\</title\>
+\</head\>
+\<body\>
+    \<style type="text/css\">
         pre {
             line-height: 70%;
         }
-    </style>
-    <h1><pre>  v,<br />Nezarka.NET: Also a Time Service!</pre></h1>
-    It is 21. 10. 2014 16:20:22 on our server.<br />
+    \</style\>
+    \<h1\>\<pre\>  v,\<br /\>Nezarka.NET: Also a Time Service!\</pre\>\</h1\>
+    It is 21. 10. 2014 16:20:22 on our server.\<br /\>
     Enjoy!
-</body>
-</html>
+\</body\>
+\</html\>
