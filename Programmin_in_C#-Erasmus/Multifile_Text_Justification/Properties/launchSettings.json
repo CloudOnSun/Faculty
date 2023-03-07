@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab3": {
+      "commandName": "Project",
+      "commandLineArgs": "in.txt out.txt 17"
+    }
+  }
+}

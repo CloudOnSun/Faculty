@@ -1,0 +1,15 @@
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\bin\Debug\net6.0\Lab9.exe
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\bin\Debug\net6.0\Lab9.deps.json
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\bin\Debug\net6.0\Lab9.runtimeconfig.json
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\bin\Debug\net6.0\Lab9.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\bin\Debug\net6.0\Lab9.pdb
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.csproj.AssemblyReference.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.AssemblyInfoInputs.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.AssemblyInfo.cs
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.csproj.CoreCompileInputs.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\refint\Lab9.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.pdb
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\Lab9.genruntimeconfig.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab9\obj\Debug\net6.0\ref\Lab9.dll

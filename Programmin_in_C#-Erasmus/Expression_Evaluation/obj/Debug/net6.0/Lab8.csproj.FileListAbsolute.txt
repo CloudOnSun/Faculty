@@ -1,0 +1,30 @@
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.exe
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.deps.json
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.runtimeconfig.json
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.pdb
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.csproj.AssemblyReference.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfoInputs.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfo.cs
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.csproj.CoreCompileInputs.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\refint\Lab8.dll
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.pdb
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.genruntimeconfig.cache
+D:\Facultate\Faculta\An 2 sem 1 erasmus\C#\Lab8\obj\Debug\net6.0\ref\Lab8.dll
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.exe
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.deps.json
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.runtimeconfig.json
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.dll
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\bin\Debug\net6.0\Lab8.pdb
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.csproj.AssemblyReference.cache
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfoInputs.cache
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfo.cs
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.csproj.CoreCompileInputs.cache
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.dll
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\refint\Lab8.dll
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.pdb
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\Lab8.genruntimeconfig.cache
+D:\Facultate\Faculta\An_2_sem_1_erasmus\C#\Lab8\obj\Debug\net6.0\ref\Lab8.dll
