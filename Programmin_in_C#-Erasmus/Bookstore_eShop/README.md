@@ -34,9 +34,9 @@ GET _CustId_ http://www.nezarka.net/ShoppingCart/Remove/_BookId_
 The result of these requests should be one of the following HTML pages (for more info see the templates below):
 
 BooksListing (template/example: 02-Books.html) - contains the common header; books are listed in a HTML table with 3 books per row (with the exception of the last row, which contains as many books aligned to the left as there are available); the order by which the books are presented corresponds to their ordering in the data model (i.e. the order in which they are returned from the GetBooks() implementation), with the next book being on the right, or in the following row if neccessary. If the list of books is empty, the output HTML document should contain only an empty HTML element \<table\>, with no \<tr\> and \<td\> tags inside:
-...  
-<table>  
-</table>  
+\...  
+\<table\>  
+\</table\>  
 ...
 BookInfo (template/example: 03-BooksDetail.html) - contains the common header
 CartContents (template/example: 04-ShoppingCart.html) - contains the common header (showing the cart state after executing the command, if any); if no items are in the cart, a notice is shown instead of the table (template/example: 05-ShoppingCart-Empty.html).
