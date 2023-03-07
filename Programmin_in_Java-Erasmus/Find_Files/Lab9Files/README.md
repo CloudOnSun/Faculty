@@ -11,10 +11,15 @@ The program prints out names of all matching files to the standard output with t
 List of constraints
 
 -name mask (the file name has to match the given mask (a mask is in the common sense, i.e., a star represents an arbitrary number of arbitrary characters and a question-mark represents a single arbitrary character))
+
 -iname mask (as -name, but case insensitive)
+
 -regex regular_expression (the file name has to match the given regular expression)
+
 -size size (the files has to be of exactly the specified size (possibilities to set the size: 5 => 5 bytes, 5k => 5 kilobytes, 5M => 5 megabytes))
+
 -ssize size (the file has to be smaller than the given size)
+
 -bsize size (the file has to be larger than the given size)
 
 If some parameters are wrong, or there are unknown parameters, etc., the program prints out ERROR and terminates.
