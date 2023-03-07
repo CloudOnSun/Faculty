@@ -30,7 +30,6 @@ _standard output_
     
     
 2
-
 ----
 
 Note: This assignment is an extension of the Huffman I assignment. It is recommended to first read the specification of that assignment and implement it before attempting to solve this assignment. Input data format and the tree-building rules remain the same. If you are already thoroughly familiar with these, you can skip them.
