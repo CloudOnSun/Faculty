@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6b03946-1160-40c4-b3d7-3579aa27ee26" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HDKS3Ss3VtFueQ4M54hMHtVqWL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Facultate/Faculta/An_2_sem_1_erasmus/AI/AI-main/dino",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6b03946-1160-40c4-b3d7-3579aa27ee26" name="Changes" comment="" />
+      <created>1667814210868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667814210868</updated>
+      <workItem from="1667814212151" duration="35000" />
+      <workItem from="1667814384453" duration="1312000" />
+      <workItem from="1667817042090" duration="21000" />
+      <workItem from="1668075931214" duration="2377000" />
+      <workItem from="1668420044324" duration="127000" />
+      <workItem from="1669307039883" duration="5461000" />
+      <workItem from="1669313738403" duration="86000" />
+      <workItem from="1669370704576" duration="9937000" />
+      <workItem from="1669380796483" duration="14981000" />
+      <workItem from="1670489883119" duration="2108000" />
+      <workItem from="1670493841837" duration="15000" />
+      <workItem from="1670510195544" duration="271000" />
+      <workItem from="1670789659242" duration="658000" />
+      <workItem from="1670927660945" duration="17000" />
+      <workItem from="1670929554689" duration="1712000" />
+      <workItem from="1671018922252" duration="608000" />
+      <workItem from="1671030556766" duration="738000" />
+      <workItem from="1671749562295" duration="195000" />
+      <workItem from="1672145671468" duration="216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/search$astar.coverage" NAME="astar Coverage Results" MODIFIED="1670490542903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$dead_square_test.coverage" NAME="dead_square_test Coverage Results" MODIFIED="1669378791530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sokoban" />
+    <SUITE FILE_PATH="coverage/search$play_sokoban.coverage" NAME="play_sokoban Coverage Results" MODIFIED="1669389270511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sokoban" />
+    <SUITE FILE_PATH="coverage/search$dead_square_detector.coverage" NAME="dead_square_detector Coverage Results" MODIFIED="1669378785019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sokoban" />
+  </component>
+</project>
