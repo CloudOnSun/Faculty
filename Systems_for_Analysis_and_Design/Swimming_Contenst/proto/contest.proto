@@ -1,0 +1,85 @@
+syntax="proto3";
+
+package protobuf;
+
+option java_outer_classname = "ContestProtobufs";
+
+message AdminLogInDTO {
+  string email = 1;
+  string password = 2;
+}
+
+message Admin {
+  int32 id = 1;
+  string email = 2;
+  string password = 3;
+}
+
+message RaceDTO {
+  string distance = 1;
+  string style = 2;
+}
+
+message SwimmingRace {
+  int32 id = 1;
+  string distance = 2;
+  string style = 3;
+}
+
+message ContestantDTO {
+  string name = 1;
+  int32 age = 2;
+  repeated SwimmingRace races = 3;
+}
+
+message RaceNrContestantsDTO {
+  string distance = 1;
+  string style = 2;
+  int32 nrContestants = 3;
+}
+
+message RaceNrContDTOList {
+  repeated RaceNrContestantsDTO races = 1;
+}
+
+message ContestantWithRacesDTO {
+  string name = 1;
+  int32 age = 2;
+  string races = 3;
+}
+
+message ContWithRaceDTOList {
+  repeated ContestantWithRacesDTO conts = 1;
+}
+
+message ContestRequest {
+  enum Type {LOG_IN = 0; LOG_OUT = 1; ADD_CONT = 2; FIND_CONTS = 3; ALL_RACES = 4; FIND_RACE = 5;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  oneof payload{
+    AdminLogInDTO adminLogInDTO = 2;
+    RaceDTO raceDTO = 3;
+    ContestantDTO contestantDTO = 4;
+    Admin admin = 5;
+  }
+}
+
+message ContestResponse{
+  enum Type { OK = 0; ERROR = 1; GOT_CONTS = 2; GOT_ACCOUNT = 3; CONT_ADDED = 4; GOT_ALL_RACES = 5; GOT_RACE = 6;  }
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  oneof payload{
+    Admin admin = 2;
+    ContWithRaceDTOList contWithRaceDTOList = 3;
+    RaceNrContDTOList raceNrContDTOList = 4;
+    SwimmingRace swimmingRace = 5;
+    string error = 6;
+  }
+
+}

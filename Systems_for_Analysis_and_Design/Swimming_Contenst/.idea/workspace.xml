@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="960153c4-74e4-495e-8ae1-c1b0d7c0e0ce" name="Changes" comment="Service + Java">
+      <change afterPath="$PROJECT_DIR$/ContestNetworking/src/main/java/protobuf/ProtoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestServicesProtoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/AdminHibernateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/org/hibernate/dialect/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestPersistance/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestServer/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/concurs/services/rest/ConcursProbaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/concurs/services/rest/RaceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/concurs/services/rest/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/concurs/services/rest/StartRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestServices/src/main/java/concurs/services/rest/StartRestServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/contest.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77cb5649-12ff-4f28-9ce1-b3ad2fb87227.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77cb5649-12ff-4f28-9ce1-b3ad2fb87227.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/StartRpcClientFX.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/StartRpcClientFX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/LoginController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/classes/java/main/com/example/contestclient/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/distributions/ContestClientFX-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/distributions/ContestClientFX-1.0-SNAPSHOT.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/distributions/ContestClientFX-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/distributions/ContestClientFX-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/libs/ContestClientFX-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/libs/ContestClientFX-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/scripts/ContestClientFX" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/scripts/ContestClientFX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/scripts/ContestClientFX.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/scripts/ContestClientFX.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/src/main/java/StartRpcClientFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/src/main/java/StartRpcClientFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestClientFX/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/ContestClientFX/target/MPP_BD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/AdminLogInDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/ContWithRaceDTOList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/Contestant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/ContestantDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/ContestantWithRacesDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/Distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/RaceDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/RaceNrContDTOList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/RaceNrContestantsDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/SwimmingRace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/SwimmingStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/classes/java/main/domain/TakesPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/libs/ContestModel-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/build/libs/ContestModel-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/AdminLogInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/AdminLogInDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/ContWithRaceDTOList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/ContWithRaceDTOList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/Contestant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/Contestant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/ContestantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/ContestantDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/ContestantWithRacesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/ContestantWithRacesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/RaceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/RaceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/RaceNrContDTOList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/RaceNrContDTOList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/RaceNrContestantsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/RaceNrContestantsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/SwimmingRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/SwimmingRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/SwimmingStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/SwimmingStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestModel/src/main/java/domain/TakesPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestModel/src/main/java/concurs/domain/TakesPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/build/classes/java/main/rpcprotocols/ContestClientRpcWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/build/classes/java/main/rpcprotocols/ContestClientRpcWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/build/classes/java/main/rpcprotocols/ContestServicesRpcProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/build/classes/java/main/rpcprotocols/ContestServicesRpcProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/build/libs/ContestNetworking-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/build/libs/ContestNetworking-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestClientRpcWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestClientRpcWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestServicesRpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestServicesRpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/AdminDBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/ContestantDBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/IAdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/IContestantRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/IParticipationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/ISwimmingRaceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/ParticipationDBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/classes/java/main/repository/SwimmingRaceDBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/libs/ContestPersistance-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/build/libs/ContestPersistance-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/AdminDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/AdminDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/ContestantDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/ContestantDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/IAdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/IAdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/IContestantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/IContestantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/IParticipationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/IParticipationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/ISwimmingRaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/ISwimmingRaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/ParticipationDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/ParticipationDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestPersistance/src/main/java/repository/SwimmingRaceDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/SwimmingRaceDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/build/classes/java/main/StartRpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/build/classes/java/main/StartRpcServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/build/classes/java/main/server/ContestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/build/classes/java/main/server/ContestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/src/main/java/StartRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/src/main/java/StartRpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/src/main/java/server/ContestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/src/main/java/server/ContestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServer/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServer/target/MPP_BD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/build/classes/java/main/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/build/classes/java/main/service/IService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/build/classes/java/main/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/build/classes/java/main/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/build/libs/ContestServices-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/build/libs/ContestServices-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/src/main/java/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/src/main/java/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContestServices/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/ContestServices/src/main/java/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swimming_race.db" beforeDir="false" afterPath="$PROJECT_DIR$/swimming_race.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/MPP_BD.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState>
+        <dataType path="$PROJECT_DIR$/ContestClient">
+          <ModuleState>
+            <id value="com.intellij.externalSystem.JavaModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleSdkData" />
+            <id value="com.intellij.openapi.externalSystem.model.task.TaskData" />
+            <id value="org.jetbrains.idea.gradle.ext.profiler.model.JavaTaskData" />
+            <id value="org.jetbrains.kotlin.android.synthetic.idea.AndroidExtensionProperties" />
+            <id value="org.jetbrains.plugins.gradle.model.GradleExtensions" />
+            <id value="org.jetbrains.plugins.gradle.model.data.BuildScriptClasspathData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.GradleProjectBuildScriptData" />
+          </ModuleState>
+        </dataType>
+        <dataType path="$PROJECT_DIR$/ContestClientFXReal">
+          <ModuleState>
+            <id value="com.intellij.externalSystem.JavaModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleSdkData" />
+            <id value="com.intellij.openapi.externalSystem.model.task.TaskData" />
+            <id value="org.jetbrains.idea.gradle.ext.profiler.model.JavaTaskData" />
+            <id value="org.jetbrains.kotlin.android.synthetic.idea.AndroidExtensionProperties" />
+            <id value="org.jetbrains.plugins.gradle.model.GradleExtensions" />
+            <id value="org.jetbrains.plugins.gradle.model.data.BuildScriptClasspathData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.GradleProjectBuildScriptData" />
+          </ModuleState>
+        </dataType>
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ContestClient">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ContestClientFX">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ContestClient">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ContestClientFXReal">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ContestClientFX">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ContestServer">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestClientFX" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestServer" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestServer" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Concurs_inot_Java" type="f1a62948:ProjectNode" />
+                <item name="ContestServer" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NdsYFgwMERXAUPXY7rOSjy645E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Facultate/Faculta/An_2_sem_2/MPP_Java/Concurs_inot_Java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30804598&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;90dbdd1c5c6bc49aad9a3dff7d2c1038&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestServer\src\main\resources" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestPersistance\src\main\java" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestPersistance\src\main\resources" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\src\main\resources" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestClient" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestNetworking\src\main\java\protobuf" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\proto" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestClientFX" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestClientFX\src\main\resources" />
+      <recent name="D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\ContestClient\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.contestclient" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="concurs.services.rest" />
+      <recent name="" />
+      <recent name="concurs.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Concurs_inot_Java [build]">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="concurs.services.rest.StartRestServices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Concurs_inot_Java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Concurs_inot_Java:ContestClientFX [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ContestClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Concurs_inot_Java:ContestClientFX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ContestClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Concurs_inot_Java:ContestServer [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ContestServer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StartRestServices" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Concurs_inot_Java.RestServices.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="concurs.services.rest.StartRestServices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Concurs_inot_Java [build]" />
+        <item itemvalue="Gradle.Concurs_inot_Java:ContestClientFX [run]" />
+        <item itemvalue="Gradle.Concurs_inot_Java:ContestServer [run]" />
+        <item itemvalue="Gradle.Concurs_inot_Java:ContestClientFX [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960153c4-74e4-495e-8ae1-c1b0d7c0e0ce" name="Changes" comment="" />
+      <created>1680005339297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680005339297</updated>
+      <workItem from="1680005341790" duration="14558000" />
+      <workItem from="1680026429241" duration="28000" />
+      <workItem from="1680028087472" duration="731000" />
+      <workItem from="1680080695577" duration="1506000" />
+      <workItem from="1680101682641" duration="52000" />
+      <workItem from="1680360620210" duration="7645000" />
+      <workItem from="1680524042135" duration="223000" />
+      <workItem from="1681146570649" duration="4709000" />
+      <workItem from="1681196815956" duration="452000" />
+      <workItem from="1681211024880" duration="3793000" />
+      <workItem from="1681283660675" duration="2399000" />
+      <workItem from="1681290496572" duration="3445000" />
+      <workItem from="1681714233426" duration="14940000" />
+      <workItem from="1681902955391" duration="9630000" />
+      <workItem from="1682335315596" duration="1204000" />
+      <workItem from="1682338364983" duration="213000" />
+      <workItem from="1682348136259" duration="641000" />
+      <workItem from="1682496853186" duration="1423000" />
+      <workItem from="1682501997775" duration="367000" />
+      <workItem from="1683055440561" duration="3148000" />
+      <workItem from="1683058628593" duration="17000" />
+      <workItem from="1683058774193" duration="209000" />
+      <workItem from="1683105248733" duration="3572000" />
+      <workItem from="1683109681119" duration="282000" />
+      <workItem from="1683112354089" duration="5094000" />
+      <workItem from="1683138841505" duration="2453000" />
+      <workItem from="1683142851558" duration="1339000" />
+      <workItem from="1683219009499" duration="996000" />
+      <workItem from="1683391403152" duration="14596000" />
+      <workItem from="1683638183190" duration="4629000" />
+      <workItem from="1683709617890" duration="1532000" />
+      <workItem from="1683881027313" duration="5471000" />
+      <workItem from="1683910898811" duration="9222000" />
+      <workItem from="1683964690720" duration="7854000" />
+      <workItem from="1684073860395" duration="1191000" />
+      <workItem from="1684238313720" duration="10883000" />
+      <workItem from="1684314736452" duration="1695000" />
+      <workItem from="1684582077246" duration="592000" />
+      <workItem from="1684858220947" duration="1070000" />
+      <workItem from="1684919351612" duration="2067000" />
+      <workItem from="1684921544356" duration="166000" />
+      <workItem from="1685189814749" duration="11000" />
+      <workItem from="1686845497322" duration="10249000" />
+      <workItem from="1686906312962" duration="2253000" />
+      <workItem from="1686988118617" duration="60000" />
+      <workItem from="1687025027666" duration="162000" />
+      <workItem from="1687083029568" duration="196000" />
+      <workItem from="1700471521680" duration="820000" />
+      <workItem from="1700933915352" duration="56000" />
+    </task>
+    <task id="LOCAL-00001" summary="Service + Java">
+      <created>1680082731160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680082731161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Service + Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service + Java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ContestPersistance/src/main/java/concurs/repository/AdminDBRepository.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ContestClientFX/src/main/java/com/example/contestclient/MainPageController.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ContestNetworking/src/main/java/rpcprotocols/ContestServicesProtoProxy.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.20.Final/742fb5b98d43848e120ee7b0718dc9e0eb16bb7b/hibernate-core-5.3.20.Final-sources.jar!/org/hibernate/tool/schema/spi/SchemaManagementToolCoordinator.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.20.Final/742fb5b98d43848e120ee7b0718dc9e0eb16bb7b/hibernate-core-5.3.20.Final-sources.jar!/org/hibernate/tool/schema/internal/AbstractSchemaMigrator.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="((SQLiteConnection)jdbcConnection).db" custom="org.sqlite.SQLiteConnection" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

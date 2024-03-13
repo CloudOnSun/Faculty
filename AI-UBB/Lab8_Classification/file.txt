@@ -1,0 +1,8 @@
+Dacă modificăm pragul de decizie într-o clasificare binară, atunci se va schimba modul în care obiectele
+sunt clasificate. De exemplu, în cazul în care avem o multitudine de evenimente și modificăm pragul de
+decizie în 0.8, doar evenimentele care au o probabilitate mai mare de a se produce decât 0.8 vor fi clasificate
+ ca fiind pozitive, iar restul vor fi clasificate ca fiind negative.
+
+Pentru a evalua calitatea unui clasificator pentru diferite valori ale pragului de decizie,
+se poate utiliza curba ROC (receiver operating characteristic curve). Această curbă ne permite să vedem
+performanța clasificatorului pentru diferite valori ale pragului de decizie.

@@ -1,0 +1,8 @@
+rootProject.name = 'TeatruISS'
+include 'Model'
+include 'Persistance'
+include 'Server'
+include 'Service'
+include 'Networking'
+include 'Client'
+

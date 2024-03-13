@@ -1,0 +1,2 @@
+Optimal tour: 956,304
+NrNodes: 33,708

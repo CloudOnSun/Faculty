@@ -1,0 +1,11 @@
+rootProject.name = 'Concurs_inot_Java'
+include 'ContestClient'
+include 'ContestServices'
+include 'ContestModel'
+include 'ContestPersistance'
+include 'ContestServer'
+include 'ContestNetworking'
+include 'ContestClientFXReal'
+include 'ContestClientFX'
+include 'RestServices'
+

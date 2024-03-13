@@ -1,0 +1,30 @@
+Încărcați imaginile și etichetele asociate
+Extrageti features din poze
+Convertiți caracteristicile și etichetele în numpy arrays
+Impărțiți datele în set de antrenare și set de testare
+Definiți modelul CNN
+Compilați și antrenați modelul
+Epoch 1/10
+250/250 [==============================] - 11s 42ms/step - loss: 1.8187 - accuracy: 0.2521 - val_loss: 1.7906 - val_accuracy: 0.2410
+Epoch 2/10
+250/250 [==============================] - 11s 42ms/step - loss: 1.6970 - accuracy: 0.3175 - val_loss: 1.6122 - val_accuracy: 0.3650
+Epoch 3/10
+250/250 [==============================] - 10s 42ms/step - loss: 1.5623 - accuracy: 0.3929 - val_loss: 1.5603 - val_accuracy: 0.3875
+Epoch 4/10
+250/250 [==============================] - 10s 41ms/step - loss: 1.5004 - accuracy: 0.4221 - val_loss: 1.5450 - val_accuracy: 0.3830
+Epoch 5/10
+250/250 [==============================] - 10s 41ms/step - loss: 1.4479 - accuracy: 0.4429 - val_loss: 1.5271 - val_accuracy: 0.3865
+Epoch 6/10
+250/250 [==============================] - 10s 42ms/step - loss: 1.4001 - accuracy: 0.4580 - val_loss: 1.5195 - val_accuracy: 0.3945
+Epoch 7/10
+250/250 [==============================] - 10s 42ms/step - loss: 1.3491 - accuracy: 0.4829 - val_loss: 1.5144 - val_accuracy: 0.4050
+Epoch 8/10
+250/250 [==============================] - 11s 42ms/step - loss: 1.2976 - accuracy: 0.5024 - val_loss: 1.5048 - val_accuracy: 0.4195
+Epoch 9/10
+250/250 [==============================] - 10s 41ms/step - loss: 1.2471 - accuracy: 0.5221 - val_loss: 1.4973 - val_accuracy: 0.4395
+Epoch 10/10
+250/250 [==============================] - 10s 41ms/step - loss: 1.1980 - accuracy: 0.5446 - val_loss: 1.4830 - val_accuracy: 0.4410
+Evaluate the model performance on the test set
+Accuracy on the test set: 0.44100000262260437
+
+Process finished with exit code 0

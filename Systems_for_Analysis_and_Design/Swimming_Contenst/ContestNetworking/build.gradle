@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'Flaviu_Florea.MPP.Swimming_Contest.Java'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':ContestModel')
+    implementation project (':ContestServices')
+    implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.22.3'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

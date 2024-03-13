@@ -1,0 +1,17 @@
+How it works:
+    With a chosen chance (30%),
+    a random number of edges can change their weight
+    to a random number between 1 and max_weight of all edges
+
+
+qa194 500 ants
+Optimum: 9352
+Result: 14940
+
+xqf131 500 ants
+Optimum: 564
+Result: 889
+
+xqf131 1000 ants
+Optimum: 564
+Result: 842

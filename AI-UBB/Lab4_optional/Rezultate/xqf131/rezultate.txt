@@ -1,0 +1,4 @@
+optimal: 564
+
+1000ants fer += 10 000/length vaporization = 0.1
+best: 735 - accuracy 94%

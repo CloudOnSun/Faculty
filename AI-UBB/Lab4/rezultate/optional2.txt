@@ -1,0 +1,16 @@
+    In primul rand, ar trebui sa se schimbe modul in care este reprezentat un cromozom, respectiv nu se mai poate
+folosi reprezentarea sub forma de permutare, deoarece nu trebuie sa treaca prin toate nodurile si astfel nu vom sti
+din cate noudri(sau muchii) va fi format drumul cel mai scurt. Cel mai probabil o reprezentare potrivita ar fi sub forma
+unui string de int-uri care sa contina nodurile din drum, lungimea acestuia fiind variata.
+    In al doilea rand, functia de fitness, mutatia si selectia raman la fel. Pe de alta parte, cel care va fi diferit,
+va fi functia de crossover, deoarece acum cei doi parinti dintre care dorim ca prin crossover sa avem un nou fiu,
+nu vor mai avea lungimi egale si atunci vechea metoda nu mai este rentabila. Noua functie de crossover va gasi o parte comuna
+intre cei doi parinti, iar copilul va primi spre exemplu subsecventa din partea stanga a partii comune de la unul dintre parinti,
+mai apoi partea comuna dintre cei doi si apoi subsecventa din partea dreapta a partii comune din cel de al doilea parinte.
+Astfel, lungimea copilului poate fi diferita si fata de lungimea oricaruia dintre parinti.
+    Partea de implementare a algoritmului evolutiv, va ramane la fel, functiile apelate si metodele folosite fiind aceleasi.
+Din punct de vedere al solutiei rezultate, aceasta va fi afisata sub forma reprezentarii mentionate mai sus, lungimea lor fiind
+variabila, fata de cea a permutarilor, nefiind toate nodurile vizitate mereu. Solutia identificata anterior, vizitand toate nodurile
+si folosind reprezentarea de permutare este o solutie viabila si in acest caz, fiind un drum care pleaca dintr-un nod si se intoarce tot
+in el, dar care viziteaza toate nodurile, fiind un drum de lungime mult mai mare, nefiind cel mai scurt drum posibil.
+

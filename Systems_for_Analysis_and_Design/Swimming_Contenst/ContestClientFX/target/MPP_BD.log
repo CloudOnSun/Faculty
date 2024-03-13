@@ -1,0 +1,102 @@
+12 Apr 2023 10:26:21,479 INFO  concurs.repository.AdminDBRepository 21 <init> - Initializing AdminDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:26:21,486 INFO  concurs.repository.ContestantDBRepository 20 <init> - Initializing ContestantDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:26:21,487 INFO  concurs.repository.ParticipationDBRepository 20 <init> - Initializing ParicipationDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:26:21,489 INFO  concurs.repository.SwimmingRaceDBRepository 21 <init> - Initializing SwimmingRaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:26:21,490 INFO  service.Service 27 <init> - Creating service with repositories concurs.repository.AdminDBRepository@193e55af, concurs.repository.ContestantDBRepository@4aff873d, concurs.repository.ParticipationDBRepository@70aebd03, concurs.repository.SwimmingRaceDBRepository@2151e93c
+12 Apr 2023 10:26:30,945 TRACE service.Service 37 getAccount - Enter Entering getAccount wiht email boss@email.com and password boss
+12 Apr 2023 10:26:30,946 TRACE concurs.repository.AdminDBRepository 27 getAccount - Enter getting account by email boss@email.com and password boss
+12 Apr 2023 10:26:30,946 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:30,946 TRACE concurs.repository.JdbcUtils 24 getNewConnection - Enter
+12 Apr 2023 10:26:30,947 INFO  concurs.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db
+12 Apr 2023 10:26:30,947 INFO  concurs.repository.JdbcUtils 30 getNewConnection - user: null
+12 Apr 2023 10:26:30,947 INFO  concurs.repository.JdbcUtils 31 getNewConnection - pass: null
+12 Apr 2023 10:26:31,130 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7b2b8926)
+12 Apr 2023 10:26:31,139 TRACE concurs.repository.AdminDBRepository 45 getAccount - Exit with(Admin{ID=1, email='boss@email.com', password='boss', officeID=1})
+12 Apr 2023 10:26:31,139 TRACE service.Service 39 getAccount - Exit with(Admin{ID=1, email='boss@email.com', password='boss', officeID=1})
+12 Apr 2023 10:26:31,371 TRACE service.Service 44 nrContestantEachRace - Enter Entering nrContestantEachRace
+12 Apr 2023 10:26:31,372 TRACE concurs.repository.SwimmingRaceDBRepository 27 nrContestantEachRace - Enter
+12 Apr 2023 10:26:31,373 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:31,373 TRACE concurs.repository.JdbcUtils 24 getNewConnection - Enter
+12 Apr 2023 10:26:31,374 INFO  concurs.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db
+12 Apr 2023 10:26:31,374 INFO  concurs.repository.JdbcUtils 30 getNewConnection - user: null
+12 Apr 2023 10:26:31,374 INFO  concurs.repository.JdbcUtils 31 getNewConnection - pass: null
+12 Apr 2023 10:26:31,375 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:31,379 TRACE concurs.repository.SwimmingRaceDBRepository 50 nrContestantEachRace - Exit with([concurs.domain.RaceNrContestantsDTO@72ba33a8, concurs.domain.RaceNrContestantsDTO@13eb191e, concurs.domain.RaceNrContestantsDTO@5c4f276d])
+12 Apr 2023 10:26:31,379 TRACE service.Service 47 nrContestantEachRace - Exit with(concurs.domain.RaceNrContDTOList@2b6bc6ba)
+12 Apr 2023 10:26:41,483 TRACE service.Service 55 getByRace - Enter Entering getByRace with distance 200m and style spate 
+12 Apr 2023 10:26:41,483 TRACE concurs.repository.ContestantDBRepository 26 getByRace - Enter finding by race with distance 200m and style spate
+12 Apr 2023 10:26:41,483 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,484 TRACE concurs.repository.JdbcUtils 24 getNewConnection - Enter
+12 Apr 2023 10:26:41,484 INFO  concurs.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db
+12 Apr 2023 10:26:41,484 INFO  concurs.repository.JdbcUtils 30 getNewConnection - user: null
+12 Apr 2023 10:26:41,484 INFO  concurs.repository.JdbcUtils 31 getNewConnection - pass: null
+12 Apr 2023 10:26:41,485 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@6c6620d4)
+12 Apr 2023 10:26:41,489 TRACE concurs.repository.ContestantDBRepository 52 getByRace - Exit with([Contestant{ID=1, name='Flaviu', age=20}, Contestant{ID=2, name='Ilinca', age=19}, Contestant{ID=4, name='Vlad', age=20}, Contestant{ID=6426, name='Popix', age=23}, Contestant{ID=42516, name='Nan', age=18}, Contestant{ID=46784, name='Marcel', age=24}, Contestant{ID=19346, name='Popovici', age=23}, Contestant{ID=22, name='Vladsilav', age=28}])
+12 Apr 2023 10:26:41,490 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 1 takes part in
+12 Apr 2023 10:26:41,490 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,491 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,492 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=1, distance='50m', style='liber'}, SwimmingRace{ID=2, distance='200m', style='spate'}])
+12 Apr 2023 10:26:41,493 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 2 takes part in
+12 Apr 2023 10:26:41,493 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,493 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,494 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}])
+12 Apr 2023 10:26:41,494 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 4 takes part in
+12 Apr 2023 10:26:41,494 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,495 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,495 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}, SwimmingRace{ID=3, distance='800m', style='fluture'}])
+12 Apr 2023 10:26:41,495 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 6426 takes part in
+12 Apr 2023 10:26:41,495 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,496 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,496 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}, SwimmingRace{ID=3, distance='800m', style='fluture'}])
+12 Apr 2023 10:26:41,496 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 42516 takes part in
+12 Apr 2023 10:26:41,496 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,497 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,497 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}])
+12 Apr 2023 10:26:41,498 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 46784 takes part in
+12 Apr 2023 10:26:41,498 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,498 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,499 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=1, distance='50m', style='liber'}, SwimmingRace{ID=2, distance='200m', style='spate'}])
+12 Apr 2023 10:26:41,500 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 19346 takes part in
+12 Apr 2023 10:26:41,500 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,500 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,501 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}, SwimmingRace{ID=3, distance='800m', style='fluture'}, SwimmingRace{ID=1, distance='50m', style='liber'}])
+12 Apr 2023 10:26:41,501 TRACE concurs.repository.SwimmingRaceDBRepository 56 getByContestant - Enter finding which race does contestant 22 takes part in
+12 Apr 2023 10:26:41,502 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+12 Apr 2023 10:26:41,502 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3cfbbf83)
+12 Apr 2023 10:26:41,502 TRACE concurs.repository.SwimmingRaceDBRepository 81 getByContestant - Exit with([SwimmingRace{ID=2, distance='200m', style='spate'}])
+12 Apr 2023 10:26:41,503 TRACE service.Service 69 getByRace - Exit with(concurs.domain.ContWithRaceDTOList@3be1efc8)
+12 Apr 2023 10:28:40,558 INFO  concurs.repository.AdminDBRepository 21 <init> - Initializing AdminDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:28:40,563 INFO  concurs.repository.ContestantDBRepository 20 <init> - Initializing ContestantDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:28:40,565 INFO  concurs.repository.ParticipationDBRepository 20 <init> - Initializing ParicipationDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:28:40,566 INFO  concurs.repository.SwimmingRaceDBRepository 21 <init> - Initializing SwimmingRaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:28:40,567 INFO  service.Service 27 <init> - Creating service with repositories concurs.repository.AdminDBRepository@1892979f, concurs.repository.ContestantDBRepository@7ec606f7, concurs.repository.ParticipationDBRepository@4d824f78, concurs.repository.SwimmingRaceDBRepository@3ad673b
+12 Apr 2023 10:29:35,441 INFO  concurs.repository.AdminDBRepository 21 <init> - Initializing AdminDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:29:35,449 INFO  concurs.repository.ContestantDBRepository 20 <init> - Initializing ContestantDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:29:35,452 INFO  concurs.repository.ParticipationDBRepository 20 <init> - Initializing ParicipationDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:29:35,454 INFO  concurs.repository.SwimmingRaceDBRepository 21 <init> - Initializing SwimmingRaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+12 Apr 2023 10:29:35,455 INFO  service.Service 27 <init> - Creating service with repositories concurs.repository.AdminDBRepository@4d824f78, concurs.repository.ContestantDBRepository@3ad673b, concurs.repository.ParticipationDBRepository@f0f26be, concurs.repository.SwimmingRaceDBRepository@41b07816
+17 Apr 2023 10:44:10,219 INFO  concurs.repository.AdminDBRepository 21 <init> - Initializing AdminDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+17 Apr 2023 10:44:10,226 INFO  concurs.repository.ContestantDBRepository 20 <init> - Initializing ContestantDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+17 Apr 2023 10:44:10,227 INFO  concurs.repository.ParticipationDBRepository 20 <init> - Initializing ParicipationDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+17 Apr 2023 10:44:10,228 INFO  concurs.repository.SwimmingRaceDBRepository 21 <init> - Initializing SwimmingRaceDBRepository with properties: {jdbc.url=jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db}
+17 Apr 2023 10:44:10,230 INFO  service.Service 27 <init> - Creating service with repositories concurs.repository.AdminDBRepository@68a4d8b3, concurs.repository.ContestantDBRepository@1892979f, concurs.repository.ParticipationDBRepository@7ec606f7, concurs.repository.SwimmingRaceDBRepository@4d824f78
+17 Apr 2023 10:44:19,876 TRACE service.Service 37 getAccount - Enter Entering getAccount wiht email boss@email.com and password boss
+17 Apr 2023 10:44:19,877 TRACE concurs.repository.AdminDBRepository 27 getAccount - Enter getting account by email boss@email.com and password boss
+17 Apr 2023 10:44:19,877 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+17 Apr 2023 10:44:19,877 TRACE concurs.repository.JdbcUtils 24 getNewConnection - Enter
+17 Apr 2023 10:44:19,878 INFO  concurs.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db
+17 Apr 2023 10:44:19,878 INFO  concurs.repository.JdbcUtils 30 getNewConnection - user: null
+17 Apr 2023 10:44:19,878 INFO  concurs.repository.JdbcUtils 31 getNewConnection - pass: null
+17 Apr 2023 10:44:20,198 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@35f8fa78)
+17 Apr 2023 10:44:20,211 TRACE concurs.repository.AdminDBRepository 45 getAccount - Exit with(Admin{ID=1, email='boss@email.com', password='boss', officeID=1})
+17 Apr 2023 10:44:20,211 TRACE service.Service 39 getAccount - Exit with(Admin{ID=1, email='boss@email.com', password='boss', officeID=1})
+17 Apr 2023 10:44:20,667 TRACE service.Service 44 nrContestantEachRace - Enter Entering nrContestantEachRace
+17 Apr 2023 10:44:20,668 TRACE concurs.repository.SwimmingRaceDBRepository 27 nrContestantEachRace - Enter
+17 Apr 2023 10:44:20,669 TRACE concurs.repository.JdbcUtils 47 getConnection - Enter
+17 Apr 2023 10:44:20,669 TRACE concurs.repository.JdbcUtils 24 getNewConnection - Enter
+17 Apr 2023 10:44:20,670 INFO  concurs.repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Facultate\Faculta\An_2_sem_2\MPP_Java\Concurs_inot_Java\swimming_race.db
+17 Apr 2023 10:44:20,670 INFO  concurs.repository.JdbcUtils 30 getNewConnection - user: null
+17 Apr 2023 10:44:20,670 INFO  concurs.repository.JdbcUtils 31 getNewConnection - pass: null
+17 Apr 2023 10:44:20,671 TRACE concurs.repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@4949b800)
+17 Apr 2023 10:44:20,674 TRACE concurs.repository.SwimmingRaceDBRepository 50 nrContestantEachRace - Exit with([concurs.domain.RaceNrContestantsDTO@6858975f, concurs.domain.RaceNrContestantsDTO@48275e36, concurs.domain.RaceNrContestantsDTO@3f6d6ee])
+17 Apr 2023 10:44:20,675 TRACE service.Service 47 nrContestantEachRace - Exit with(concurs.domain.RaceNrContDTOList@42b90bae)

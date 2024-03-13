@@ -1,0 +1,21 @@
+This fitness function is based on the concept of "conductance" in community detection.
+Conductance is a measure of how well-connected a community is, relative to its size.
+A community with low conductance is one where most of the edges are within the community,
+and few edges connect the community to the rest of the network.
+
+The fitness function works by first calculating the conductance score for each community in the chromosome.
+This is done by counting the number of edges that connect nodes within the community to nodes outside the community
+(the "cut size"), and dividing this by the minimum of the volume of the community
+(i.e., the sum of the degrees of the nodes in the community) and the volume of the complement of the community
+(i.e., the sum of the degrees of the nodes outside the community).
+This gives a conductance score between 0 and 1 for each community.
+
+The fitness function then calculates the average conductance score across all communities,
+and returns the inverse of this value as the fitness.
+The reasoning behind taking the inverse is that we want to maximize the fitness,
+but the conductance score is a measure of how "bad" the community is (i.e., a lower score is better),
+so we invert it to make it a measure of how "good" the community is.
+
+In summary, this fitness function encourages the genetic algorithm
+to find a chromosome with communities that have low conductance scores,
+which means they are well-connected within themselves and not highly connected to the rest of the network.

@@ -1,0 +1,31 @@
+optimal: 9352
+
+300 ants fer += 1/length
+best: 49847
+
+300 ants fer += 1000/length
+best: 43893
+
+1000 ants fer += 5000/length
+best: 23667
+
+1000 ants fer += 10 000/length
+best: 18232
+
+5000 ants fer += 10 000/length
+best: 14578
+
+500 ants fer += 10 000/length + vaporization 0.2
+best: 14983
+
+500 ants fer += 10 000/length + vaporization 0.5
+best: 24094
+
+500 ants fer += 10 000/length + vaporization 0.1
+best: 14983
+
+500 ants fer += 50 000/length + vaporization 0.1
+best: 14947
+
+5000 ants fer += 10 000/length + vaporization 0.1
+best: 13196 - 94% accuracy

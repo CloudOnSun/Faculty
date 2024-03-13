@@ -1,0 +1,4 @@
+the learnt model: f(x) =  2.5007797289772187  +  1.874398407997786  * GPD +  2.3883206248272186  * free
+prediction error (tool):   0.26041463215744864
+the learnt model manualy: f(x) =  0.21578648735369566  +  2.766610203181213  * GPD +  5.8021212485877705  * free
+prediction error (manualy):   0.9612971421272168

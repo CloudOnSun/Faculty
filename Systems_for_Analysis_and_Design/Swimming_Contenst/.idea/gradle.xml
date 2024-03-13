@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.0.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ContestClient" />
+            <option value="$PROJECT_DIR$/ContestClientFX" />
+            <option value="$PROJECT_DIR$/ContestClientFXReal" />
+            <option value="$PROJECT_DIR$/ContestModel" />
+            <option value="$PROJECT_DIR$/ContestNetworking" />
+            <option value="$PROJECT_DIR$/ContestPersistance" />
+            <option value="$PROJECT_DIR$/ContestServer" />
+            <option value="$PROJECT_DIR$/ContestServices" />
+            <option value="$PROJECT_DIR$/RestServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

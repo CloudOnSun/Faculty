@@ -1,0 +1,33 @@
+Load the dataset
+Epoch 1/50
+893/893 [==============================] - 844s 944ms/step - loss: 0.3178 - accuracy: 0.4008 - val_loss: 0.2414 - val_accuracy: 0.5234
+Epoch 2/50
+893/893 [==============================] - 849s 950ms/step - loss: 0.2294 - accuracy: 0.5731 - val_loss: 0.2194 - val_accuracy: 0.6093
+Epoch 3/50
+893/893 [==============================] - 843s 945ms/step - loss: 0.2110 - accuracy: 0.6340 - val_loss: 0.2010 - val_accuracy: 0.6630
+Epoch 4/50
+893/893 [==============================] - 851s 954ms/step - loss: 0.2022 - accuracy: 0.6634 - val_loss: 0.1942 - val_accuracy: 0.6921
+Epoch 5/50
+893/893 [==============================] - 842s 943ms/step - loss: 0.1967 - accuracy: 0.6865 - val_loss: 0.1889 - val_accuracy: 0.7068
+Epoch 6/50
+893/893 [==============================] - 837s 937ms/step - loss: 0.1915 - accuracy: 0.7033 - val_loss: 0.1914 - val_accuracy: 0.6963
+Epoch 7/50
+893/893 [==============================] - 842s 943ms/step - loss: 0.1874 - accuracy: 0.7185 - val_loss: 0.1828 - val_accuracy: 0.7292
+Epoch 8/50
+893/893 [==============================] - 842s 943ms/step - loss: 0.1845 - accuracy: 0.7286 - val_loss: 0.1820 - val_accuracy: 0.7313
+Epoch 9/50
+893/893 [==============================] - 838s 938ms/step - loss: 0.1821 - accuracy: 0.7394 - val_loss: 0.1821 - val_accuracy: 0.7354
+Epoch 10/50
+893/893 [==============================] - 840s 941ms/step - loss: 0.1799 - accuracy: 0.7490 - val_loss: 0.1827 - val_accuracy: 0.7330
+Epoch 11/50
+893/893 [==============================] - 839s 939ms/step - loss: 0.1767 - accuracy: 0.7625 - val_loss: 0.1837 - val_accuracy: 0.7299
+Epoch 12/50
+893/893 [==============================] - 841s 942ms/step - loss: 0.1754 - accuracy: 0.7657 - val_loss: 0.1820 - val_accuracy: 0.7364
+Epoch 13/50
+893/893 [==============================] - 839s 940ms/step - loss: 0.1732 - accuracy: 0.7782 - val_loss: 0.1814 - val_accuracy: 0.7382
+Epoch 14/50
+893/893 [==============================] - 839s 940ms/step - loss: 0.1721 - accuracy: 0.7830 - val_loss: 0.1795 - val_accuracy: 0.7416
+Epoch 15/50
+893/893 [==============================] - 840s 940ms/step - loss: 0.1702 - accuracy: 0.7868 - val_loss: 0.1788 - val_accuracy: 0.7407
+Epoch 16/50
+893/893 [==============================] - 1245s 1s/step - loss: 0.1682 - accuracy: 0.7951 - val_loss: 0.1783 - val_accuracy: 0.7431
