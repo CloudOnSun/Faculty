@@ -1,0 +1,8 @@
+Nr processes;Timp executie;No of Runs;Timpi;Analiza
+5;5739284000;10;cu citire;diferenta dintre numarul de procese e prea mica pentru a putea trage concluzie
+9;5679878000;10;cu citire;practic, cu 8 procese este cel mai rapid
+21;6089480000;10;cu citire;citirea este foarte costisitoare
+5;24597880;10;fara citire;timpul efectiv de calcul este foarte mic
+9;30511530;10;fara citire;cu 4 procese este cel mai rapid
+21;37618250;10;fara citire;
+5;25978720;10

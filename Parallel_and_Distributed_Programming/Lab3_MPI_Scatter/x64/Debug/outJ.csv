@@ -1,0 +1,7 @@
+Nr processes;Timp executie;No of Runs;Timpi;Analiza
+4;5668481000;10;cu citire;
+8;5686870000;10;cu citire;
+20;6394382000;10;cu citire;
+4;25141130;10;fara citire;
+8;20042760;10;fara citire;
+20;27054300;10;fara citire;

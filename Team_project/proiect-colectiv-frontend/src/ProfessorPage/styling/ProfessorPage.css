@@ -1,0 +1,87 @@
+/* Example styles for ProfessorPageContent component */
+.ProfessorPageContent {
+    /*padding: 20px;*/
+    /*margin: 20px;*/
+    font: bold 30px "Roboto";
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/science-objects-icons-seamless-pattern_1308-134774.jpg?w=1060&t=st=1699798318~exp=1699798918~hmac=72e49c22b033e60361bdafad386c6b35bbe0717d28c346f9f0b9a7749e648c8f');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    height: 100vh;
+    overflow-y: auto; /* Add scroll only if content overflows */
+
+    /*position: relative;*/
+}
+.professor{
+    color: #336aa1;
+    background-color: white;
+    margin:20px;
+}
+
+/* Example styles for StudentTable component (inside ProfessorPageContent) */
+.StudentList {
+    text-align:left;
+    background-color: white;
+    margin: 20px;
+}
+
+.StudentsTable {
+    font: 15px 'Roboto', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.StudentsTable th, .StudentsTable td {
+    font: 15px 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    border: 3px solid midnightblue;
+    padding: 8px;
+    text-align: left;
+}
+
+.StudentsTable th {
+    background-color: midnightblue;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.StudentView {
+    /* Add any additional styling for your StudentView component here */
+}
+
+.buttonLogoutContainer {
+    margin-top: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.buttonLogOutProfessors {
+    padding: 10px 20px;
+    font: 20px "Roboto";
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buttonLogOutProfessors:hover {
+    color:midnightblue;
+}
+
+.editNumberOfStudentsModal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px; /* Adjust the margin as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: dodgerblue; /* Change the background color */
+    color: black; /* Change the text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+
+.background-container {
+    background-image: url('https://i.pinimg.com/564x/3e/94/21/3e94212d6b391454612211ab75db9b55.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container {
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 5px solid #214BB3;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    position: relative; /* Set to relative */
+}
+
+.container h1 {
+    color: #214BB3;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'ui-sans-serif', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #214BB3; /* Blue color for the title */
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'ui-sans-serif', sans-serif; /* Cursive font */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-12 {
+    border: 2px;
+    border-color: #214BB3;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+
+
+.loginForm {
+    background-color: #fff; /* White background for form */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputLogin,
+.inputLogin,
+.butonLogin {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.inputLogin,
+.inputLogin {
+    background-color: #f8f8f8; /* Light gray background for input fields */
+    color: #333; /* Dark text color */
+}
+
+.inputLogin:focus,
+.inputLogin:focus {
+    outline: none;
+    background-color: #e0e0e0; /* Lighter gray on focus */
+    border: 1px solid #666; /* Dark gray border on focus */
+}
+
+.butonLogin {
+    background-color: #4A6CCF; /* Dodger blue button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.butonLogin:hover {
+    background-color: #3d70ff; /* Slightly darker blue on hover */
+}
+
+span {
+    color: #e74c3c; /* Red error message */
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.logo {
+    padding: 20px;
+    position: relative;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    margin-left: -50px; /* 50% of your logo width */
+    /*justify-content: center;*/
+    transform: translateX(-50%);
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+/*.logo {*/
+/*    position: absolute;*/
+/*    bottom: 10px; !* Adjust as needed *!*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*}*/

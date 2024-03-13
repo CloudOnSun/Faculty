@@ -1,0 +1,231 @@
+.background-container-student-page {
+    position: relative;
+    background-color: #f8f9fa;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/03/14/99/95/1000_F_314999588_yECjafXdXlTWi7ozxJEsnwf1DxvYKo38.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    height: 100vh;
+    overflow-y: auto; /* Add scroll only if content overflows */
+}
+
+
+.professor-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgb(101, 172, 220);*/
+}
+
+.list-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #336aa1;
+    animation: titleFade 1.5s ease-in-out forwards;
+    font-family: 'Roboto', sans-serif;
+    /*text-shadow: 1px 1px 2px #69b5be; !* Black text contour *!*/
+}
+
+.list-professor-props {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #336aa1;
+    animation: titleFade 1.5s ease-in-out forwards;
+    font-family: 'Roboto', sans-serif;
+}
+
+.professor-list {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.professor-item:hover {
+    box-shadow: 0 12px 24px rgba(0, 123, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.fade-in-item {
+    animation: fadeInItem 0.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.professor-details h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+.professor-details p {
+    margin: 5px 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+.professor-occupation p {
+    margin: 0;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInItem {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes titleFade {
+    from {
+        color: #007BFF;
+    }
+    to {
+        color: #336aa1;
+    }
+}
+
+.butonLogoutContainer {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.butonLogoutContainer button {
+    background-color: rgba(255, 255, 255, 1); /* Adjust the alpha (last value) for the desired opacity */
+    /* You can also adjust other button styles here */
+}
+
+.showAllButtonContainer {
+    margin-top: 20px; /* Adjust the margin-top as needed to move the button down */
+}
+
+
+.showAllButton {
+    background-color: #164565; /* Change the background color as desired */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.showAllButton:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+}
+
+
+.professor-item {
+    border: 1px solid #007BFF;
+    margin-bottom: 20px;
+    padding: 10px; /* Updated padding to reduce the size of the professor item */
+    border-radius: 12px;
+    background: linear-gradient(45deg, #105aa9, #4576a9, #7592b0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.professor-item-full {
+    border: 1px solid #ff002f;
+    margin-bottom: 20px;
+    padding: 10px; /* Updated padding to reduce the size of the professor item */
+    border-radius: 12px;
+    background: linear-gradient(45deg, #a91046, #a94557, #b0758a);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.professor-details {
+    text-align: left; /* Align professor details to the left */
+    max-width: 75%;
+}
+
+.professor-occupation {
+    text-align: left; /* Align professor occupation to the left */
+}
+
+
+.requestThesisButtonContainer button {
+    background-color: #164565; /* Change the background color of the request button */
+    color: #fff; /* Text color */
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.requestThesisButtonContainer button:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+}
+
+.requestThesisButtonContainer {
+    position: absolute; /* Position the request button container in the middle */
+    top: 50%;
+    right: 1px;
+    transform: translate(-25%, -50%);
+}
+
+.requestStatus {
+    position: absolute; /* Position the request status in the middle */
+    top: 50%;
+    right: 1px;
+    transform: translate(-25%, -50%);
+}
+
+.pendingRequestStatus {
+    background: linear-gradient(45deg, #f0ad4e, #f8d77c); /* Make the pending request status yellowish and opaque */
+    opacity: 0.8;
+    color: #122a63;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.declinedRequestStatus {
+    background: linear-gradient(45deg, #ff5722, #ff8058); /* Make the declined request status redish and opaque */
+    opacity: 0.8;
+    color: #122a63;
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.acceptedRequestStatus {
+    background: linear-gradient(45deg, #a1c077, #e3d545); /* Make the declined request status redish and opaque */
+    opacity: 1;
+    color: #388fce;
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+    font-weight: bold;
+    transform: translate(10%);
+}
+
+

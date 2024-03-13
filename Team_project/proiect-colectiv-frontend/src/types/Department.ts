@@ -1,0 +1,7 @@
+enum Department {
+    INFORMATICS = "INFORMATICS",
+    MATHEMATICS = "MATHEMATICS",
+    MATHEMATICS_INFORMATICS = "MATHEMATICS_INFORMATICS"
+}
+
+export default Department;

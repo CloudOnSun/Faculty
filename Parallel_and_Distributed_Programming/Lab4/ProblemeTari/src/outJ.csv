@@ -1,0 +1,11 @@
+Tip Program;No of Runs;Timp Mediu;Nr producers;Nr Consumers;Analiza
+0;10;193887670;0;0;Secvential mai rau decat orice
+1;10;187896330;1;3;Cu 1p mai rau decat cu 2p
+1;10;187306640;1;5;Diferenta mica intre 1p si 3c, 5c, 7c
+1;10;187576240;1;7;
+1;10;193728120;1;15;Cu 1p si 15c cel mai rau, dar mai bine decat secvential
+1;10;176400420;2;2;Cu 2c si 2p cel mai bine
+1;10;177021580;2;4;Diferenta mica intre 2p si 2c, 4c, 6c, 14c
+1;10;177432580;2;6;
+1;10;177638480;2;14;
+1;10;220677060;1;3

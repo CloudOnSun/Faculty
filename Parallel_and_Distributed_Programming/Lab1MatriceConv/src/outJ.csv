@@ -1,0 +1,33 @@
+Tip Program;Nr threads;Timp executie;No of Runs;FisierIntrare;Impartire Threaduri;Analiza;
+0;1;55460;10;n10m10k3.txt;-1;mult mai rapid seq pentru date mici (aproape de 33 de ori mai rapida);Impartire: 0 - linii, 1 - col, -1 - seq
+1;4;1743340;10;n10m10k3.txt;0;;Tip program: 0 -seq, 1 - paralel
+1;4;1718220;10;n10m10k3.txt;1;;
+0;1;83756120;10;n1000m1000k5.txt;-1;;
+1;2;66051230;10;n1000m1000k5.txt;0;;
+1;2;64354800;10;n1000m1000k5.txt;1;;
+1;4;53556100;10;n1000m1000k5.txt;0;;
+1;4;51365690;10;n1000m1000k5.txt;1;;
+1;8;50710530;10;n1000m1000k5.txt;0;pentru 1mil elemente, mai rapid paralele, dar pana in 8 threaduri;
+1;8;56513850;10;n1000m1000k5.txt;1;;
+1;16;83976910;10;n1000m1000k5.txt;0;pentru 1mil elemente, foarte rau pentru 16 threaduri;
+1;16;102462150;10;n1000m1000k5.txt;1;imparitre pe coloane foarte rea pentru 16 threaduri si 1mil elem;
+0;1;24517780;10;n10m10000k5.txt;-1;pentru 100 mii elem, seq este mai rapid;
+1;2;41796360;10;n10m10000k5.txt;0;;
+1;2;36809620;10;n10m10000k5.txt;1;;
+1;4;43908840;10;n10m10000k5.txt;0;;
+1;4;38018580;10;n10m10000k5.txt;1;pana in 4 threaduri, impartirea pe coloane este mai rapida deobicei;
+1;8;42166970;10;n10m10000k5.txt;0;de la 8 threaduri in sus este mai rapida impartirea pe randuri;
+1;8;48634090;10;n10m10000k5.txt;1;;
+1;16;45416190;10;n10m10000k5.txt;0;;
+1;16;58157430;10;n10m10000k5.txt;1;;
+0;1;24098120;10;n10000m10k5.txt;-1;;
+1;2;36456360;10;n10000m10k5.txt;0;;
+1;2;35032920;10;n10000m10k5.txt;1;;
+1;4;40638880;10;n10000m10k5.txt;0;;
+1;4;41830660;10;n10000m10k5.txt;1;;
+1;8;40707900;10;n10000m10k5.txt;0;;
+1;8;38832500;10;n10000m10k5.txt;1;pentru 10000 linii si 10 coloane, aproape mereu este mai rapida impartirea pe col;
+1;16;56208200;10;n10000m10k5.txt;0;;
+1;16;46801870;10;n10000m10k5.txt;1;;
+0;1;29348220;10;n10000m10k5.txt;-1
+1;4;67362640;10;n10000m10k5.txt;0

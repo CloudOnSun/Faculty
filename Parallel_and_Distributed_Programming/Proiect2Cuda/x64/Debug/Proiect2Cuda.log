@@ -1,0 +1,122 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\x64\Debug\kernel.cu.obj "D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu" 
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(181): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(188): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(194): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(200): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(207): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(213): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(181): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(188): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(194): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(200): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(207): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(213): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(181): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(188): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(194): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(200): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(207): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\kernel.cu(213): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 216)
+              variable "blocks" (declared at line 217)
+            goto Error;
+            ^
+  
+  kernel.cu
+  tmpxft_0000237c_00000000-7_kernel.compute_50.cudafe1.cpp
+     Creating library D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\x64\Debug\Proiect2Cuda.lib and object D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\x64\Debug\Proiect2Cuda.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Proiect2Cuda.vcxproj -> D:\Facultate\Faculta\An_3_sem_1\PPD\Proiect2Cuda\x64\Debug\Proiect2Cuda.exe

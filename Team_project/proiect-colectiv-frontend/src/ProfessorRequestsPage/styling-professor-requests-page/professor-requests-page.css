@@ -1,0 +1,153 @@
+.background-container-student-page {
+    position: relative;
+    background-color: #f8f9fa;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/03/14/99/95/1000_F_314999588_yECjafXdXlTWi7ozxJEsnwf1DxvYKo38.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    height: 100vh;
+    overflow-y: auto; /* Add scroll only if content overflows */
+}
+
+
+.professor-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    /*box-shadow: 0 4px 8px rgb(101, 172, 220);*/
+}
+
+.list-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #336aa1;
+    animation: titleFade 1.5s ease-in-out forwards;
+    font-family: 'Roboto', sans-serif;
+    /*text-shadow: 1px 1px 2px #69b5be; !* Black text contour *!*/
+}
+
+.professor-list {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.professor-item {
+    border: 1px solid #007BFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #105aa9, #4576a9, #7592b0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.professor-item:hover {
+    box-shadow: 0 12px 24px rgba(0, 123, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.fade-in-item {
+    animation: fadeInItem 0.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.professor-details h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+.professor-details p {
+    margin: 5px 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+.professor-occupation p {
+    margin: 0;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 2px #000; /* Black text contour */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInItem {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes titleFade {
+    from {
+        color: #007BFF;
+    }
+    to {
+        color: #336aa1;
+    }
+}
+
+.butonLogoutContainer {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.butonLogoutContainer button {
+    background-color: rgba(255, 255, 255, 1); /* Adjust the alpha (last value) for the desired opacity */
+    /* You can also adjust other button styles here */
+}
+
+.background-container-student-page {
+    position: relative;
+}
+
+.showAllButtonContainer {
+    margin-top: 20px; /* Adjust the margin-top as needed to move the button down */
+}
+
+
+.showAllButton {
+    background-color: #164565; /* Change the background color as desired */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.showAllButton:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+}
+
+.professor-full-div {
+    background-color: #ffcccb; /* Light Coral color */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: #8b0000; /* Dark Red color */
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+Tip Program;Nr threads;Timp executie;No of Runs;FisierIntrare;;Analiza
+0;1;7290;10;n10m10.txt;;Pentru 10-10 este clar mai rapid seq
+1;2;1403800;10;n10m10.txt;;
+0;1;51271630;10;n1000m1000.txt;;Seq de 3.4 mai incet decat 16 threaduri
+1;2;31173330;10;n1000m1000.txt;;
+1;4;18320390;10;n1000m1000.txt;;Spre deosebire de java, cu cat cresc numarul de th, cu atat scade timpul
+1;8;16084440;10;n1000m1000.txt;;
+1;16;15782150;10;n1000m1000.txt;;
+0;1;5062307000;10;n10000m10000.txt;;Raportul de timpi dintre seq si nr de th se pastreaza si pentru numere mai mari, spre deosebire de java
+1;2;2915690000;10;n10000m10000.txt;;
+1;4;1688443000;10;n10000m10000.txt;;
+1;8;1294379000;10;n10000m10000.txt;;
+1;16;1325248000;10;n10000m10000.txt;;
+0;1;51133570;10;n1000m1000.txt
+1;8;14713310;10;n1000m1000.txt
+0;1;55438560;10;n1000m1000.txt
+1;8;16457610;10;n1000m1000.txt
+1;4;23116190;10;n1000m1000.txt
